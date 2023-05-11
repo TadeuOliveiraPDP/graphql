@@ -1,0 +1,14 @@
+"outer"
+type Query {
+    "inner"
+    hello: HelloResponse
+}
+
+"the response type"
+type HelloResponse {
+    "just a test"
+    test: String!
+    message: String!
+    status: Int!
+    timestamp: String!
+}
